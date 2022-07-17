@@ -1,0 +1,30 @@
+%text {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.navbar {
+  margin-top: 48px;
+  nav {
+    display: flex;
+  ul a {
+    @extend %text;
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+  .links{
+    display: flex;
+  img {
+    width: 36px;
+    height: 36px;
+    background: #ffffff;
+    display: flex;
+    margin-right: 12px;
+  }
+}
+}

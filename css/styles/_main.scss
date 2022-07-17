@@ -1,0 +1,227 @@
+%text {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+main {
+  position: relative;
+  @extend %text;
+  .description {
+    margin: 0 0 0 77px;
+    display: flex;
+    .description__text {
+      width: 484px;
+      margin-top: 106px;
+      h1 {
+        font-size: 51px;
+        line-height: 61px;
+      }
+      p {
+        width: 340px;
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 43px;
+      }
+      button {
+        background: #8dfd1b;
+        border-radius: 0px;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 17px 40px 27px 40px;
+        margin-top: 132px;
+      }
+    }
+  }
+  .description__bottom {
+    margin: 114px 240px 120px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .wave{
+     h2 {
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 45px;
+      text-transform: uppercase;
+      margin: 0 0 41px 66px;
+      span {
+        color: #a8a8a8;
+      }
+    }
+  }
+    .wave__text {
+      position: relative;
+      width: 562px;
+      .acid {
+        display: flex;
+        .trait__acid {
+          height: 124px;
+          width: 1px;
+          background: #8dfd1b;
+        }
+        .trait__text p {
+          font-size: 21px;
+          line-height: 32px;
+          color: #8dfd1b;
+          width: 546px;
+          padding-left: 22px;
+        }
+      }
+      .acid__text__bottom {
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          padding-top: 32px;
+        }
+        button {
+          font-size: 16px;
+          line-height: 16px;
+          padding: 10px 33px 16px 33px;
+          border: 1px solid #8dfd1b;
+          border-radius: 0px;
+          background: #000000;
+          color: #ffffff;
+          margin-top: 36px;
+        }
+      }
+    }
+  }
+  .ticker {
+    marquee {
+      li {
+        padding-right: 350px;
+      }
+      P {
+        font-size: 79px;
+        line-height: 88px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .roadmap {
+    margin-top: 118px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    .ripple {
+      position: absolute;
+      z-index: 1;
+      width: 400px;
+    }
+    .ripple_2 {
+      position: absolute;
+      z-index: 1;
+      left: 65%;
+      top: 350px;
+      width: 400px;
+    }
+    .ripple_3 {
+      position: absolute;
+      z-index: 1;
+      width: 400px;
+      top: 60%;
+    }
+    h2 {
+      font-size: 38px;
+      line-height: 45px;
+    }
+    .roadmap__block {
+      background: #222222;
+      border: 1px solid #8dfd1b;
+      border-radius: 0px;
+      width: 540px;
+      height: auto;
+      margin: 0 auto;
+    }
+    .road__bl__mar {
+      margin-top: 100px;
+      .roadmap__block__top {
+        display: flex;
+        padding: 12px;
+        border-bottom: 1px solid #8dfd1b;
+        .number {
+          width: 45px;
+          height: 45px;
+          background: #8dfd1b;
+          margin-right: 12px;
+          p {
+            font-size: 28px;
+            line-height: 28px;
+            color: #000000;
+            padding-top: 8px;
+          }
+        }
+        .roadmap__block__top__text {
+          .roadmap__acid {
+            font-size: 8px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #8dfd1b;
+            text-align: left;
+          }
+          .roadmap__ordinary {
+            font-size: 16px;
+            line-height: 28px;
+          }
+        }
+      }
+      .roadmap__block__bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 12px 30px 12px;
+        .road__bl__tp p {
+          font-size: 11px;
+          text-align: left;
+          line-height: 32px;
+          padding-left: 22px;
+        }
+        .road__bl__bt {
+          width: 298px;
+          font-size: 11px;
+          text-align: left;
+          line-height: 32px;
+          padding-top: 16px;
+        }
+      }
+      .roadmap__block__bottom__img {
+        padding-top: 6px;
+      }
+    }
+  }
+  .discord {
+    margin-top: 140px;
+    .discord__block {
+      display: flex;
+      justify-content: space-between;
+      .discord__text {
+        margin-top: 100px;
+        h4 {
+          font-size: 51px;
+          line-height: 61px;
+        }
+        span {
+          color: #8dfd1b;
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          width: 345px;
+          padding-top: 34px;
+        }
+        button {
+          background: #8dfd1b;
+          border-radius: 0px;
+          text-align: center;
+          font-size: 16px;
+          line-height: 16px;
+          padding: 5px 0 10px 0;
+          width: 213px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

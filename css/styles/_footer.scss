@@ -1,0 +1,31 @@
+*{
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px; 
+    color: #FFFFFF; 
+}
+
+
+footer{
+    background: #42006A;
+    margin-top: 118px;
+    padding:  100px  0;
+    .name{
+        padding-top: 70px;
+    }
+    p{
+        padding-top: 20px;
+    }
+    .links{
+        display: flex;
+      img {
+        width: 36px;
+        height: 36px;
+        background: #ffffff;
+        display: flex;
+        margin-right: 12px;
+      }
+    }
+}
